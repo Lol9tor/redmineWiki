@@ -1,0 +1,31 @@
+.wikiPage h1, .wikiPage h2, .wikiPage h3 {
+    position: relative;
+}
+
+.wikiPage h1 {
+    line-height: 22px;
+    font-size: 22px;
+}
+
+.wikiPage h2 {
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.wikiPage h3 {
+    line-height: 18px;
+    font-size: 18px;
+}
+
+.wikiPage {
+    position: absolute;
+    left: 365px;
+    top: 48px;
+    bottom: 0;
+    right: 0;
+    padding: 10px 15px 0 15px;
+    line-height: 18px;
+    word-wrap: break-word;
+    overflow-x: hidden;
+}
+

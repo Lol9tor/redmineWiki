@@ -1,0 +1,9 @@
+static
+dist
+node_modules
+.idea
+.git
+npm-debug.log
+.DS_Store
+*-compiled.js
+*-compiled.js.map

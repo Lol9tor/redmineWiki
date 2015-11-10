@@ -1,0 +1,30 @@
+.transformedContainer {
+    border-right: none;
+    overflow: auto;
+    word-break: break-word;
+    composes: textileContainer from '../OriginalTextile/OriginalTextile.css';
+}
+
+.transformedContainer h1, .transformedContainer h2, .transformedContainer h3 {
+    position: relative;
+}
+
+.transformedContainer h1 {
+    line-height: 22px;
+    font-size: 22px;
+}
+
+.transformedContainer h2 {
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.transformedContainer h3 {
+    line-height: 18px;
+    font-size: 18px;
+}
+
+.transformed {
+    width: initial;
+    composes: textile from '../OriginalTextile/OriginalTextile.css';
+}

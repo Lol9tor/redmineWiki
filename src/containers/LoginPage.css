@@ -1,0 +1,51 @@
+.loginWrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+}
+
+.loginWrapper input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.loginWrapper input:focus {
+    background: #fafafa;
+    border-color: #999;
+}
+
+.loginWrapper button {
+    border-style: solid;
+    border-width: 0;
+    position: relative;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px 30px;
+    font-size: 14px;
+    line-height: 30px;
+    height: 40px;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    color: #fff;
+    outline: none;
+    transition: background-color 300ms ease-out;
+}
+
+.loginWrapper button:hover {
+    background-color: #286090;
+    border-color: #204d74;
+    cursor: pointer;
+}
+
+.loginWrapper button:disabled {
+    opacity: 0.6;
+}
